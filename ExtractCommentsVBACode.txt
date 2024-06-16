@@ -1,0 +1,4 @@
+Function Comment(incell) As String
+On Error Resume Next
+Comment = incell.Comment.Text
+End Function
